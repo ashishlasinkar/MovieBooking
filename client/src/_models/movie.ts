@@ -1,4 +1,4 @@
-export interface movie {
+export interface Movie {
   Language: string;
   Location: string;
   Plot: string;

@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { MoviesListComponent } from './movies/movies-list/movies-list.component';
 import { MoviesDetailsComponent } from './movies/movies-details/movies-details.component';
+import { MovieCardComponent } from './movies/movie-card/movie-card.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MoviesDetailsComponent } from './movies/movies-details/movies-details.c
     NavComponent,
     MoviesListComponent,
     MoviesDetailsComponent,
+    MovieCardComponent,
   ],
   imports: [
     BrowserModule,
