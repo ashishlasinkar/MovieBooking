@@ -1,9 +1,9 @@
 <div class="card mb-4" *ngIf="movie$ !== undefined">
   <div class="card-img-wrapper">
-    <img src="{{movie$!.Poster}}" alt="{{movie$!.Title}}" class="card-img-top">
+    <img src="{{movie$!.Poster}}" alt="{{movie$!.Title}}" class="card-img-top" routerLink='{{movie$!.Title}}'>
   </div>
   <div class="card-body p-1">
     <h6 class="card-title text-center mb-1"><i class="fa fa-user mr-2"></i></h6>
-    <p class="card-text text-muted text-center">{{movie$!.Title}}</p>
+    <p class="card-text text-muted text-center" routerLink='{{movie$!.Title}}'>{{movie$!.Title}}</p>
   </div>
 </div>

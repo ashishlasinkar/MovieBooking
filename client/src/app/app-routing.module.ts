@@ -7,7 +7,7 @@ import { NavComponent } from './nav/nav.component';
 const routes: Routes = [
   { path: '', component: NavComponent },
   { path: 'movies', component: MoviesListComponent },
-  { path: 'members/:id', component: MoviesDetailsComponent },
+  { path: 'movies/:movieName', component: MoviesDetailsComponent },
 ];
 
 @NgModule({

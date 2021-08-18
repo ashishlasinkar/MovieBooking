@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 import { MoviesListComponent } from './movies/movies-list/movies-list.component';
 import { MoviesDetailsComponent } from './movies/movies-details/movies-details.component';
 import { MovieCardComponent } from './movies/movie-card/movie-card.component';
+import { SharedModule } from './_modules/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,10 @@ import { MovieCardComponent } from './movies/movie-card/movie-card.component';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    SharedModule
+  ],
+  exports:[
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
